@@ -38,7 +38,7 @@ def scaling(FilesArray,size):
 			im.thumbnail(size)
 			storeImage(im)
 		except AttributeError:
-            			print ("cannot create thumbnail for '%s'" % out)
+            			print ("cannot create thumbnail for '%s'" % im)
 
 
 def grayScale(FilesArray):
