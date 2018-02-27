@@ -9,8 +9,8 @@ SCALING_SIZE80 = 80,80
 SCALING_SIZE150 = 150,150
 SCALING_SIZE200 = 200,200
 
-imgInPath = "/Users/giulio.salierno/OneDrive - Università degli Studi di Modena e Reggio Emilia/Dropbox/Università/Dottorato/SignalClassification/data/LightSignals2/"
-imgOutPath = "/Users/giulio.salierno/OneDrive - Università degli Studi di Modena e Reggio Emilia/Dropbox/Università/Dottorato/SignalClassification/data/output_dataugment/"
+imgInPath = "$INPUTFOLDER"
+imgOutPath = "$OUTPUTFOLDER"
 def get_image_paths():
     folder = imgInPath
     files = os.listdir(folder)
